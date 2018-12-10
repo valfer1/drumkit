@@ -49,9 +49,3 @@ kbd {
   letter-spacing: .1rem;
   color: #e08cff;
 }
-
-@media (max-width: 800px) {
-  .keys {
-    
-  }
-}

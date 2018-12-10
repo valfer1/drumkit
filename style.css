@@ -15,16 +15,17 @@ body,html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .key {
   border: .4rem solid #3e2b6b;
   border-radius: .5rem;
-  margin: 1rem;
+  margin: 2rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
-  width: 10rem;
+  width: 8rem;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
@@ -47,4 +48,10 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #e08cff;
+}
+
+@media (max-width: 800px) {
+  .keys {
+    
+  }
 }
